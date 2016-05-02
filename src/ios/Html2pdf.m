@@ -58,7 +58,7 @@
     
     // define page size and margins
     self.pageSize = kPaperSizeA4;
-    self.pageMargins = UIEdgeInsetsMake(10, 5, 10, 5);
+    self.pageMargins = UIEdgeInsetsMake(0, 0, 0, 0);
     
     // Load page into a webview and use its formatter to print the page
     UIWebView* webPage    = [[UIWebView alloc] init];
@@ -127,7 +127,8 @@
 
     // trigger success response
     [self success];
-
+    /******************
+    /* We do not need that
     // show "open pdf with ..." menu
     NSURL* url = [NSURL fileURLWithPath:filePath];
     self.documentController = [UIDocumentInteractionController interactionControllerWithURL:url];
@@ -147,6 +148,7 @@
         [alertView show];
         //[alertView release]; // p. leak
     }
+    */
 
 }
 
