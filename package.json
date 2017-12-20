@@ -1,0 +1,25 @@
+{
+  "name": "com.troyanskiy.cordova.plugin.appexit",
+  "version": "1.0.0",
+  "description": "html2pdf",
+  "keywords": [
+    "Cordova",
+    "html2pdf"
+  ],
+  "cordova": {
+    "id": "at.modalog.cordova.plugin.html2pdf",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troyanskiy/cordova-plugin-html2pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/troyanskiy/cordova-plugin-html2pdf/issues"
+  },
+  "homepage": "https://github.com/troyanskiy/cordova-plugin-html2pdf",
+  "author": "Raman Rasliuk <roma@redbox.by>",
+  "license": "ISC"
+}
